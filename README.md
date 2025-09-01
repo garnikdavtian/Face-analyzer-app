@@ -36,7 +36,7 @@ A demonstration video showcasing the main features of the application is availab
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/face-analyzer-app.git
+   git clone https://github.com/garnikdavtian/Face-analyzer-app.git
    cd face-analyzer-app
    ```
 
@@ -57,7 +57,7 @@ A demonstration video showcasing the main features of the application is availab
 ## Usage
 1. Run the Streamlit application:
    ```bash
-   streamlit run app.py
+   streamlit run age_detector.py
    ```
 
 2. Open the provided local URL in your browser.
