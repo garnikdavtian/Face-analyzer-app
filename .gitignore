@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit / caches
+.streamlit/
+
+# Data / Media
+*.mp4
+*.mov
+*.avi
+
+# Logs
+*.log
