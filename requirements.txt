@@ -1,5 +1,14 @@
-streamlit
-pandas
-numpy
-opencv-python
-deepface
+# ──────────────────────────────────────────────────────────────────────
+#  Face Analyzer — Python Dependencies
+#  Pin major.minor versions for reproducibility.
+# ──────────────────────────────────────────────────────────────────────
+
+streamlit>=1.30,<2.0
+deepface>=0.0.89,<1.0
+opencv-python>=4.8,<5.0
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+tf-keras>=2.15,<3.0          # required backend for DeepFace models
+
+# ── Dev / Test ──────────────────────────────────────────────────────
+pytest>=7.4,<9.0

@@ -1,29 +1,44 @@
 
-# Python
+# ── Python ──────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.env
-*.venv
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environments ────────────────────────────────────────────
+.env
+.venv
 env/
 venv/
 
-# IDE
+# ── IDE ─────────────────────────────────────────────────────────────
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS
+# ── OS ──────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 
-# Streamlit / caches
-.streamlit/
+# ── Streamlit ───────────────────────────────────────────────────────
+# Keep .streamlit/config.toml, ignore secrets
+.streamlit/secrets.toml
 
-# Data / Media
+# ── Data / Media ────────────────────────────────────────────────────
 *.mp4
 *.mov
 *.avi
 
-# Logs
+# ── Logs ────────────────────────────────────────────────────────────
 *.log
+
+# ── Docker ──────────────────────────────────────────────────────────
+.dockerignore
+
+# ── DeepFace model cache ────────────────────────────────────────────
+.deepface/
